@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patel Riya | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#home">Patel Riya</a>
+  <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+  <nav id="menu">
+    <a href="#home">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a class="btn small" href="Riyaben_Patel_Resume.pdf" target="_blank" download>Resume</a>
+  </nav>
+</header>
+
+<main>
+  <!-- ABOUT -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm Patel Riya.<br>I build clean, useful web projects.</h1>
+      <p class="tagline">B.Tech CSE Student-2nd year | Web developer | Git and GitHub enthusiast</p>
+      <p>  I am a second-year B.Tech Computer Science and Engineering
+  student at AMTICS, UTU. I enjoy building web applications
+  and improving my programming skills. I am looking for
+  internship opportunities to gain practical experience.</p>
+      <div class="actions">
+        <a class="btn" href="Riyaben_Patel_Resume.pdf" target="_blank" download>Download resume</a>
+        <a class="btn ghost" href="#projects">See my projects</a>
+      </div>
+    </div>
+    <img class="photo" src="images/riya_photo.jpg" alt="Photot of Riya Patel" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22400%22><rect width=%22400%22 height=%22400%22 fill=%22%23cfe3e6%22/><text x=%22200%22 y=%22210%22 font-size=%2224%22 text-anchor=%22middle%22 fill=%22%231B2A2F%22>Add images/profile.jpg</text></svg>'">
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div>
+        <h3>Technical</h3>
+        <div class="bar"><span>HTML</span><div><i data-w="90"></i></div></div>
+        <div class="bar"><span>CSS</span><div><i data-w="80"></i></div></div>
+        <div class="bar"><span>JavaScript</span><div><i data-w="70"></i></div></div>
+        <div class="bar"><span>Git and GitHub</span><div><i data-w="75"></i></div></div>
+        <div class="bar"><span>Python / Java</span><div><i data-w="65"></i></div></div>
+      </div>
+      <div>
+        <h3>Soft skills</h3>
+        <ul class="chips">
+          <li>Communication</li><li>Teamwork</li><li>Problem solving</li>
+          <li>Time management</li><li>Quick learner</li><li>Leadership</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>To-Do-List</h3>
+        <p>A simple web application to add and manage daily tasks using HTML, CSS, and JavaScript.
+      </p>
+        <a href="https://github.com/rp0940204-ops/to-do-list" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="card">
+        <h3>Calculator</h3>
+        <p>A web-based calculator for performing basic arithmetic operations using HTML, CSS, and JavaScript.
+      </p>
+        <a href="https://github.com/rp0940204-ops/calculator" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Send me a message and your email app will open with it filled in.</p>
+    <form id="contact-form" novalidate>
+      <label>Name <input type="text" id="name" required></label>
+      <label>Email <input type="email" id="email" required></label>
+      <label>Message <textarea id="message" rows="5" required></textarea></label>
+      <p id="form-msg" role="status"></p>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Patel Riya</p>
+<p>
+  <a href="https://github.com/rp0940204-ops" target="_blank" rel="noopener">GitHub</a>
+  <a href="https://www.linkedin.com/in/riya-patel-745944444" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <a href="mailto:rp0940204@gmail.com">Email</a>
+</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
